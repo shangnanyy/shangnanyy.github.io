@@ -1,0 +1,244 @@
+@charset "utf-8";
+.margin{
+	width: 1200px;
+	margin: 0 auto;
+}
+.head-box{
+	height: 143px;
+}
+#banner{
+	margin-top: 26px;
+}
+#banner p{
+	font: 700 16px/24px "";
+    color: #000;
+}
+/*【热门标签】区域*/
+#banner .hot{
+	float: left;
+	width: 150px;
+	margin-right: 20px;
+	
+}
+#banner .hot .nav_hot{
+	border-bottom: 1px solid #ededed;
+    padding-bottom: 15px;
+    margin-bottom: 14px;
+}
+#banner .hot dd{
+	float: left;
+	margin-right: 20px;
+}
+#banner .hot dd:nth-child(3) a{
+	color: #F4604B;
+}
+#banner .hot dd a:hover{
+	color: #F4604B;
+}
+/*【全部礼物】区域*/
+#banner .manu_hot dt{
+	width: 150px;
+	height: 31px;
+	font: 12px/31px "";
+}
+#banner .manu_hot dt a{
+	display: block;
+	padding-left: 40px;
+}
+#banner .manu_hot dd {
+	
+}
+#banner .manu_hot dd manu_mh{
+	width: 120px;
+    height: 460px;
+    float: left;
+ 
+}
+#banner .manu_hot dd manu_mh a{
+	display: block;
+   padding-left: 20px;
+}
+
+
+/*轮播区*/
+#banner .banner {
+	position: relative;
+	width: 820px;
+	height: 460px;
+	margin-right: 20px;
+}
+#banner .banner .img-wrapper {
+	position: relative;
+}
+#banner .banner .img-wrapper img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display:none;
+}
+#banner .banner .img-wrapper img:nth-child(1){
+	display: block;
+}
+#banner .banner .arrow {
+	display: none;
+	position: absolute;
+	top: 50%;
+	width: 73px;
+	height: 65px;
+	overflow: hidden;
+	cursor: pointer;
+	opacity: 0.5;
+}
+#banner .banner .arrow-left{
+	left:12px;
+	background: url(../images/cut_arrows.png) no-repeat;
+}
+#banner .banner .arrow-right{
+	right: 12px;
+	background: url(../images/cut_arrows.png) no-repeat 0 -67px;
+}
+
+#banner .banner .circle {
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	text-align: center;
+}
+#banner .banner .circle-wrapper {
+	display: inline-block;
+}
+#banner .banner .circle-wrapper:after {
+	display: block;
+	height: 0;
+	content: '';
+	clear: both;
+}
+#banner .banner .circle .circle-item {
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	background-color: #fff;
+}
+#banner .banner .circle .circle-item.active {
+	background-color: #F4604B;
+}
+
+
+
+/*banner右侧*/
+#banner .recommend p:first-child{
+	margin-bottom: 20px;
+}
+
+/*爆款推荐*/
+#burst{
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+#burst .title {
+	font: 12px/30px "";
+	color: #999;
+	margin-bottom: 15px;
+}
+#burst .title b{
+	font: 700 20px/30px "";
+	color: #333;
+	margin-right: 15px;
+}
+
+#burst ul{
+	width: 105%;
+}
+#burst ul li{
+	float: left;
+	margin:0 20px 20px 0;
+	font: 700 16px/21px "宋体";
+}
+#burst ul li img{
+	width: 280px;
+	height: 280px;
+}
+
+#burst ul li p{
+	position: relative;
+	font: 12px/28px "";
+}
+#burst ul li p span:last-child{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#burst ul li .pname:hover{
+	color: #F4604B;
+}
+#burst .baner_small a:first-child{
+	margin-right: 4px;
+	display: inline-block;
+}
+
+/*楼层*/
+#main{
+	background: #ddd;
+}
+#main .floor{
+	background: #fff;
+	width: 110%;
+	margin-left:-100px ;
+}
+#main .floor ul{
+	margin-left: 100px;
+}
+#main .floor ul li{
+	float:left;
+	width: 128px;
+    height: 46px;
+    text-align: center;
+    margin-right: 2px;
+    font: 700 14px/46px "宋体";
+    color: #666;
+    cursor: pointer;
+}
+#main .floor ul li:hover,#main .floor ul li.current{
+	background: #e44715;
+    color: #fff;
+}
+#main .floor_box ul{
+	width: 105%;
+}
+#main .floor_box ul li{
+	float: left;
+	margin:0 20px 20px 0;
+	font: 16px/20px "宋体";
+}
+#main .floor_box ul li img{
+	width: 280px;
+	height: 280px;
+}
+#main .floor_box ul li.first img{
+	width: 580px;
+	height: 320px;
+}
+
+#main .floor_main .title h3{
+	font: 700 30px/80px "微软雅黑";
+	color: #000;
+}
+#main .floor_box ul li p{
+	position:relative;
+	font: 12px/20px "";
+}
+#main .floor_box ul li p span:last-child{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+
+
+
+
+

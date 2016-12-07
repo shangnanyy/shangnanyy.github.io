@@ -1,0 +1,124 @@
+.margin{
+	width: 1075px;
+	margin: 0 auto;
+}
+/*.goods-detail {
+	width: 1075px;
+	margin: 100px auto 0;
+}*/
+
+
+.goods-detail .left {
+	float: left;
+	width: 400px;
+}
+.right {
+	float: left;
+	width: 490px;
+}
+
+.tb-prop {
+	padding-left: 12px;
+	margin-bottom: 6px;
+	font-size: 12px;
+}
+.tb-prop .tb-title,
+.tb-prop .tb-con {
+	float: left;
+}
+.tb-prop .tb-title {
+	width: 60px;
+}
+.tb-prop .tb-con {
+	width: 400px;
+}
+
+.tb-prop .tb-con .tb-con-item {
+	float: left;
+	border: 1px solid #ccc;
+	margin-right: 5px;
+}
+.tb-prop .tb-con .tb-con-item:hover,
+.tb-prop .tb-con .tb-con-item.selected {
+	border-color: #be0106;
+}
+.size .tb-con-item a {
+	display: block;
+	padding: 3px 10px;
+}
+
+/*color*/
+.tb-prop.color .tb-con-item {
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+
+/*amount*/
+.amount {
+	height: 28px;
+	line-height: 28px;
+}
+.amount .amount-item {
+	float: left;
+}
+.amount-op {
+	position: relative;
+	width: 80px;
+	height: 20px;
+	margin-right: 10px;
+	text-align: center;
+}
+.amount-op .amount-input {
+	position: absolute;
+	left: 19px;
+	width: 30px;
+	height: 100%;
+	border: 1px solid #ccc;
+	text-indent: 10px;
+	outline: none;
+}
+.amount-op .amount-increase,
+.amount-op .amount-decrease {
+	position: absolute;
+	top: 0;
+	width: 18px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid #ccc;
+	background: #eee;
+	
+}
+.amount-op .amount-increase {
+	left: 50px;
+}
+.amount-op .amount-decrease {
+	left: 0;
+}
+
+.tb-prop .stock {
+	margin-left: 20px;
+}
+
+.tb-prop .user-option {
+	float: left;
+	width: 160px;
+	height: 30px;
+	line-height: 30px;;
+	text-align: center;
+	border: 1px solid #be0106;
+	background-color: #ffeded;
+}
+.tb-prop .user-option  a {
+	display: block;
+	color: #be0106;
+}
+.tb-prop .user-option.option-bynow {
+	margin-right: 20px;
+}
+.tb-prop .user-option.option-addCart {
+	background-color: #be0106;
+}
+.tb-prop .user-option.option-addCart a {
+	color: #fff;
+}

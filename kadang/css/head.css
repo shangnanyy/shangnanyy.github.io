@@ -1,0 +1,288 @@
+@charset "utf-8";
+.margin{
+	margin:0 auto;
+	width: 1200px;
+	font-size: 10px;
+}
+#head{
+	height: 110px;
+}
+#head .logo{
+	height: 150px;
+	overflow: hidden;
+}
+#head .head-r .head-r-t{
+	height: 23px;
+	font: 10px/23px "";
+	padding-left: 10px;
+	border-bottom: 1px solid #F5F5F5;
+}
+#head .head-r .head-r-t a:hover{
+	color: #F4604B;
+	
+}
+#head .head-r .head-r-t .head-r-t-l a{
+	margin-left: 16px;
+}
+#head .head-r .head-r-t .head-r-t-r{
+	margin-left: 300px;
+}
+#head .head-r .head-r-t .head-r-t-r li{
+	position:relative;
+	float: left;
+	margin: 0 8px;
+}
+#head .head-r .head-r-t .head-r-t-r li i{
+	position:relative;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	top: 2px;
+	overflow: hidden;
+}
+#head .head-r .head-r-t .head-r-t-r li i img{
+	position: absolute;
+	left: 0;
+	top: -400px;
+}
+#head .head-r .head-r-t .head-r-t-r li:first-child{
+	position: relative;
+	z-index: 10;
+	-height: 72px;
+}
+#head .head-r .head-r-t .head-r-t-r li .myk{
+	position: absolute;
+	display: none;
+}
+/*搜索框*/
+#head .head-r .head-r-b{
+margin-top:17px;	
+}
+#head .head-r .head-r-b .search{
+	margin:0 65px 0 260px;
+}
+#head .head-r .head-r-b .search input{
+	text-indent:1em ;
+	width: 315px;
+	height: 28px;
+	border: 2px solid #F4604B;
+	border-radius: 15px;
+	
+}
+#head .head-r .head-r-b .search a{
+	margin: 0 12px;
+	line-height: 23px;
+}
+#head .head-r .head-r-b .search a:hover{
+	color: #F4604B;
+}
+/*导航*/
+#nav{
+	height: 31px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #999;
+}
+#nav ul li{
+	float: left;
+	margin: 0 25px;
+	
+	
+}
+#nav ul li a{
+	display: block;
+	font:700 12px/30px "";
+}
+#nav ul li a:hover{
+	color: #F4604B;
+	border-bottom: 2px solid #F4604B;
+}
+/*登录modal样式*/
+#modal-log {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+  /*注册*/
+#modal-reg {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.modal-bg {
+	width: 100%;
+	height: 100%;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+	background-color: #000;
+}
+.modal-content {
+	position: absolute;
+	top: 0;
+	right: -100%;
+	width: 1014px;
+	height: 495px;
+	background-color: #fff;
+}
+.modal-content .login{
+	width: 640px;
+	margin: 0 auto;
+}
+.modal-content .closeLog{
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url(../images/closePop.gif) no-repeat center #F4604B;
+	cursor: pointer;
+}
+.modal-content .other_login{
+	text-align: center;
+	width: 195px;
+	padding-right: 25px;
+}
+.modal-content .other_login dd{
+	float: left;
+}
+.modal-content .other_login dd a{
+	display: block;
+	padding-top: 44px;
+	margin-left: 15px;
+	width: 44px;
+	background: url(../images/login.png);
+}
+.modal-content .other_login dd a:hover{
+	color: #F4604B;
+}
+/*登录界面*/
+#logen{
+	height: 235px;
+	
+} 
+#reg_form{
+	padding-left:23px ;
+	border-left: 1px solid #bbb;
+}
+padding-left:23px ;
+	border-left: 1px solid #bbb;
+#reg_form dt{
+	height:40px;
+	font: 28px/40px '';
+	margin-bottom: 20px;
+}
+#reg_form .input{
+	width: 280px;
+	height: 34px;
+	font:10px/34px "";
+	padding-left: 35px;
+	outline: none;
+	border: 1px solid #666;
+}
+#reg_form .text{
+	background: url() no-repeat 5px center;
+}
+#reg_form .password{
+	background: url() no-repeat 5px center;
+}
+#reg_form dd>div{
+	height: 30px;
+	line-height: 30px;
+}
+#reg_form dd>div>p{
+	text-align: right;
+	color: #F4604B;
+	display: none;
+}
+#reg_form .input.error{
+	border: 1px solid #F4604B;
+}
+      /*验证框*/
+ #reg_form .yanzhen:last-child{
+ 	height: 30px;
+	line-height: 30px;
+	
+ }
+#reg_form .yanzhen{
+	width: 60px;
+	height: 34px;
+	font:10px/34px "";
+	padding-left: 35px;
+	outline: none;
+	border: 1px solid #666;
+}
+#reg_form .suiji{
+	width: 65px;
+	height: 34px;
+	font:30px/34px "";
+	margin-left: 10px;
+	display: inline-block;
+	background: #999;
+	color: #fff;
+	vertical-align: middle;
+	border: 1px solid #666;
+	cursor:default;
+}
+	/*登录按钮*/
+#reg_form .enter{
+	width: 320px;
+	height: 45px;
+	background: #F4604B;
+	color: #fff;
+	font:30px/45px '微软雅黑';
+	text-align: center;
+	cursor: pointer;
+}
+#reg_form a:hover{
+	color: #F4604B;
+}
+
+
+
+/*竖导航条*/
+.fast-nav{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+.fast-nav ul li{
+	position: relative;
+	width: 32px;
+	height: 32px;
+	margin-top: 9px;
+	padding-top: 2px;
+	background: #eee;
+	border:1px solid #ccc;
+	font: 10px/15px "";
+	text-align: center;
+}
+.fast-nav ul li:hover a{
+	color: #F4604B;
+}
+.fast-nav ul li.first{
+	padding-top: 32px;
+	
+}
+.fast-nav ul li.first a img{
+	position: absolute;
+	top:-15px;
+	left:-4px;
+}
+.fast-nav ul li.four{
+	position: relative;
+}
+.fast-nav ul li.four .zaihu{
+	display: none;
+	opacity: 0;
+	position: absolute;
+	left: -155px;
+	top:-110px;
+}
+.fast-nav ul li.four:hover .zaihu{
+	display: block;
+	opacity: 1;
+}
+
