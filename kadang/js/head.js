@@ -13,17 +13,27 @@ $(function(){
 		},400);
 		$('#modal-log').fadeOut();
 	})
-	$('#head .head-r .head-r-t .head-r-t-r li:first>a').mouseenter(function(){
+	$('#head .head-r .head-r-t .head-r-t-r li:first').mouseenter(function(){
 		$('.myk').show();
-		$(this).parent().css({
+		$(this).find('.lia').css({
+			marginTop:-1,
+			marginRight:-1
+		
+		});
+		$(this).css({
 			'border':'1px solid #999'
 			
-		})
+		});
 	});
-	$('#head .head-r .head-r-t .head-r-t-r li').mouseleave(function(){
+	$('#head .head-r .head-r-t .head-r-t-r li:first').mouseleave(function(){
 		$('.myk').hide();
+		$(this).find('.lia').css({
+			marginTop:0,
+			marginRight:0
+		});
 		$(this).css({
-			'border':0
+			'border':"none"
+			
 		})
 	})
 	  //登录框

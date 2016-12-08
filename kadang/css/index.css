@@ -29,35 +29,77 @@
 	float: left;
 	margin-right: 20px;
 }
-#banner .hot dd:nth-child(3) a{
+#banner .hot .nav_hot dd:nth-child(3) a{
 	color: #F4604B;
 }
-#banner .hot dd a:hover{
+#banner .hot .nav_hot dd a:hover{
 	color: #F4604B;
 }
-/*【全部礼物】区域*/
-#banner .manu_hot dt{
-	width: 150px;
+/*【全部礼物】二级导航*/
+#banner .hot .manu_hot{
+	position: relative;
+}
+#banner .hot .manu_hot .tag_nav dl dt{
+	position: relative;
+	font: 14px/31px "";
 	height: 31px;
-	font: 12px/31px "";
+	text-align: center;
+	cursor: pointer;
 }
-#banner .manu_hot dt a{
-	display: block;
-	padding-left: 40px;
-}
-#banner .manu_hot dd {
-	
-}
-#banner .manu_hot dd manu_mh{
+#banner .hot .manu_hot .tag_content{
+	display: none;
+	position: absolute;
+	top: -126px;
+	left: 150px;
+	height: 458px;
 	width: 120px;
-    height: 460px;
-    float: left;
- 
+	padding-left: 20px;
+	border: 1px solid #eee;
+	z-index: 2;	
+	background: #fff;
 }
-#banner .manu_hot dd manu_mh a{
+#banner .hot .manu_hot .tag_content .tag-con-item{
+	padding: 0 20px 0 10px;
+	display: none;
+}
+#banner .hot .manu_hot .tag_content .tag-con-item a{
 	display: block;
-   padding-left: 20px;
+	padding: 0 20px 0 10px;
+	margin: 15px 0;
+	line-height: 20px;
 }
+#banner .hot .manu_hot .tag_content .tag-con-item a:nth-child(1),
+#banner .hot .manu_hot .tag_content .tag-con-item a:nth-child(3){
+	color: #F4604B;
+}
+#banner .hot .manu_hot .tag_content .tag-con-item a:nth-child(1):hover,
+#banner .hot .manu_hot .tag_content .tag-con-item a:nth-child(3):hover{
+	color: #f00;
+}
+
+#banner .hot .manu_hot .tag_content .tag-con-item a:hover{
+	background: #999;
+	color: #fff;
+}
+/*三角形*/
+#banner .hot .manu_hot .tag_nav dl dt p{
+	position: absolute;
+	right: 10px;
+	top: 9px;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-left: 8px solid #fff;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+}
+#banner .hot .manu_hot .tag_nav dl dt.hover{
+	background: #F4604B;
+}
+#banner .hot .manu_hot .tag_nav dl dt.hover a{
+	color: #fff;
+}
+
 
 
 /*轮播区*/
@@ -181,7 +223,7 @@
 
 /*楼层*/
 #main{
-	background: #ddd;
+	background: #eee;
 }
 #main .floor{
 	background: #fff;

@@ -114,7 +114,7 @@ $(function(){
 					$(this).val(amount);
 				}
 				
-				//调用会写cookie功能
+				//调用回写cookie功能
 				that.handleCookie( $(this) );
 			});
 		},

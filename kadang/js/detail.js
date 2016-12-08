@@ -152,6 +152,7 @@ $(function(){
 				//cookie在哪？ $.cookie()创建tb_cart
 				var cart = $.cookie('tb_cart')  || '{}';
 				cart = JSON.parse( cart );
+				console.log(cart[sizeId])
 				//判断购物车是否已经存在当前商品
 				if(!cart[sizeId]){
 					cart[sizeId] = {
@@ -168,7 +169,7 @@ $(function(){
 
 				confirm('添加成功');
 
-				console.log( JSON.parse( $.cookie('tb_cart') ) );
+//				console.log( JSON.parse( $.cookie('tb_cart') ) );
 			});
 		}
 	};
